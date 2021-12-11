@@ -1,0 +1,47 @@
+.section-servise {
+    padding-top: 104px;
+    padding-bottom: 104px;
+}
+
+.servise-block {
+    display:flex;
+    justify-content: space-between;
+    width: 32%;
+    border: 3px solid #707070;
+    background-color: #ffffff;
+    color: black;
+    padding: 35px 30px;
+ 
+
+    margin-right: 22px;
+}
+
+.servise-block:last-child {
+    margin-right: 0;
+}
+
+.servise-block__description {
+    width: 155px;
+}
+
+.servise-block__row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.servise-block__title {
+    margin: 0;
+    min-height: 36px;
+    margin-bottom: 10px;
+    color: #262626;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.44;
+}
+
+.servise-block__text {
+    color: #707070;
+    font-size: 11px;
+    line-height: 1.5;
+}

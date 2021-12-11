@@ -1,0 +1,116 @@
+.header {
+    height: 800px;
+    width: 100%;
+    padding-top: 36px;
+    background-color: whitesmoke;
+    background-image: url('../img/header-bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header__nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px ;
+}
+
+.header__button {
+    height: 66px; 
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 23px;
+    background-color: #004cff;
+    color: #ffffff;
+    font-family: 'Teko', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    text-decoration: none;
+}
+
+.header__button:hover {
+    background-color: rgb(1, 1, 129);
+}  
+
+.header__nav {
+    color: #404040;
+    font-family: 'Teko', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+
+}
+
+.header__nav-link {
+    position: relative;
+    color: #404040;
+    text-decoration: none;
+    margin-right: 52px;
+}
+
+.header__nav-link::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    right: -28px;
+    top: 15px;
+    background-color:#004cff;
+    pointer-events: none;
+    transform: rotate(45deg);
+
+
+}
+
+.header__nav-link:last-child {
+    margin-right: 0px;
+}
+
+.header__nav-link:last-child::after {
+    display: none;
+}
+
+.header__nav-link:hover, .header__nav-link--active {
+    color: #004cff;
+}
+
+.header__promo {
+    max-width: 400px;
+}
+
+.header__title {
+    color: #ffffff;
+    font-family: Teko;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 2.73px;
+    margin-bottom: 64px;
+}
+
+.header__promo-button {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-right: 48px;
+    padding-left: 48px;
+    height: 61px;
+    border: 6px solid #ffffff;
+    text-decoration: none;
+    padding-top: 14px;
+
+    transition: border-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+
+.header__promo-button:hover {
+    color: #fabc40;
+    border-color: #fabc40;
+}
